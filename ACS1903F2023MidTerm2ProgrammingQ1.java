@@ -21,8 +21,10 @@ public class ACS1903F2023MidTerm2ProgrammingQ1{
         // parse and get status
         n = Integer.parseInt(strin);
         
-        switch(n % 10){
-            case 0, 1, 2:
+        switch(n % 10){ 
+            case 0: 
+            case 1: 
+            case 2:
             status = "Group B";
             break;
             case 3:
